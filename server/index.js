@@ -1,12 +1,10 @@
-import express from "express";
-import { PORT } from "./config.js";
+const app = require('./src/app');
+const connectDB = require('./src/config/dbConfig');
 
-const app = express();
+connectDB();
 
-app.get('/', (req, res) => {
-    res.send('ola');
-});
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Servidor ejecutándose en el puerto ${PORT}`);
 });
