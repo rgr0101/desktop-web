@@ -1,17 +1,12 @@
-
-import './App.css'
-import { LoginForm } from './components/LoginForm'
+import "./App.css";
+import { LoginForm } from "./components/LoginForm";
 
 function App() {
-  
-
-  return (
-    <>
-
-     <LoginForm />
-
-    </>
-  )
+    return (
+        <>
+            <LoginForm />
+        </>
+    );
 }
 
-export default App
+export default App;
