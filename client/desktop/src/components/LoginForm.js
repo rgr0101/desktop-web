@@ -22,7 +22,7 @@ export const LoginForm = () => {
           <label htmlFor="password">Password:</label>
           <input type="password" id="password" name="password" required />
         </div>
-        <button type="submit">Login</button>
+        <button className="btm_submit" type="submit">Login</button>
       </form>
     </div>
   </div>

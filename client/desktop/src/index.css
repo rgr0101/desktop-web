@@ -1,8 +1,10 @@
 body{
 
   background: #2b5876;  
-  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  
-  background: linear-gradient(to right, #4e4376, #2b5876);
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876); 
+
+  background: linear-gradient(to right, #2e2256, #103750);
+  /* background: linear-gradient(to right, #4e4376, #2b5876);   */
 
   /* Celestial */
   /* background: #C33764;  
@@ -28,7 +30,7 @@ img{
   
   padding: 40px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.551);
   backdrop-filter: blur(10px);
   color:white;
   text-align: center;
@@ -50,7 +52,7 @@ img{
 }
 
 .input-group input {
-  width: 100%;
+  width: 93%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -73,3 +75,4 @@ button:hover {
   display: flex;
   justify-content: center;
 }
+
