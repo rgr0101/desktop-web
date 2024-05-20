@@ -1,0 +1,66 @@
+.cocktail-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cocktail-modal .close-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.cocktail-modal input {
+    padding: 10px;
+    margin-right: 10px;
+    width: calc(100% - 120px);
+    box-sizing: border-box;
+}
+
+.cocktail-modal button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cocktail-modal button:hover {
+    background-color: #0056b3;
+}
+
+.cocktail-modal img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.cocktail-modal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cocktail-modal li {
+    text-align: left;
+}
+
+.cocktail-modal a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cocktail-modal a:hover {
+    text-decoration: underline;
+}

@@ -26,7 +26,8 @@ const register = async (req, res) => {
 const login = async (req, res) => {
     const { username, password } = req.body;
 
-    const user = en;
+    const user = await User.findOne({ username });
+
     await User.findOne({ username });
     if (!user) {
         return res.status(400).json({ message: "Usuario no encontrado" });
@@ -40,7 +41,7 @@ const login = async (req, res) => {
     const token = jwt.sign(
         { username: user.username, role: user.role },
         jwtSecret,
-        { expiresIn: "1h" }
+        { expiresIn: "248h" }
     );
 
     res.json({ token });

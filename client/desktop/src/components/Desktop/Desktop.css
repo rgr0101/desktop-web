@@ -1,0 +1,27 @@
+.desktop {
+    height: 100vh;
+    padding: 1.5rem 3rem !important;
+}
+
+.desktop h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100% !important;
+}
+
+.buttons button {
+    width: 200px;
+    height: 200px;
+    background-color: #4e4376;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+}

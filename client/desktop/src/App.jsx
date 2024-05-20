@@ -1,11 +1,15 @@
-import "./App.css";
-import { LoginForm } from "./components/LoginForm";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LoginForm from './components/Login/LoginForm';
+import Desktop from './components/Desktop/Desktop';
 
 function App() {
     return (
-        <>
-            <LoginForm />
-        </>
+        <Router>
+            <Routes>
+                <Route path="/" element={<LoginForm />} />
+                <Route path="/desktop" element={<Desktop />} />
+            </Routes>
+        </Router>
     );
 }
 
