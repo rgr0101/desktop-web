@@ -1,20 +1,23 @@
 .task-modal {
-    background-color: #ccc;
+    background: transparent;
+    backdrop-filter: blur(225px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    height: auto !important;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .close-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    background-color: #2f0878;
-    border: none;
+    background: red;
     color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 h2 {
@@ -37,7 +40,7 @@ strong {
 
 p {
     font-size: 14px;
-    color: gray;
+    color: black;
 }
 
 button {
@@ -50,7 +53,7 @@ button {
 }
 
 input[type="text"] {
-    width: 100%;
+    width: 48%;
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 4px;

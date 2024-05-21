@@ -1,25 +1,37 @@
 .desktop {
     height: 100vh;
     padding: 1.5rem 3rem !important;
+    background: url('https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(20px);
 }
 
 .desktop h2 {
     text-align: center;
+    font-weight: 400;
+    letter-spacing: 12px;
     color: #fff;
+    margin-bottom: 30px;
 }
 
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
     height: 100% !important;
 }
 
 .buttons button {
-    width: 200px;
-    height: 200px;
-    background-color: #4e4376;
+    width: 120px;
+    height: 120px;
+    background-color: transparent !important;
+    font-size: 16px;
+    font-weight: 500;
+    backdrop-filter: blur(40px);
+    border: 1px solid #ccc;
 }
 
 .buttons button:hover {

@@ -1,4 +1,4 @@
-.meal-modal {
+.number-conversion-modal {
     background: transparent;
     backdrop-filter: blur(225px);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.meal-modal .close-button {
+.number-conversion-modal .close-button {
     background: red;
     color: white;
     border: none;
@@ -19,14 +19,14 @@
     border-radius: 5px;
 }
 
-.meal-modal input {
+.number-conversion-modal input {
     padding: 10px;
-    margin-right: 10px;
-    width: calc(100% - 120px);
+    margin: 10px 0;
+    width: calc(100% - 20px);
     box-sizing: border-box;
 }
 
-.meal-modal button {
+.number-conversion-modal button {
     padding: 10px;
     cursor: pointer;
     background-color: #007bff;
@@ -36,32 +36,6 @@
     transition: background-color 0.3s;
 }
 
-.meal-modal button:hover {
+.number-conversion-modal button:hover {
     background-color: #0056b3;
-}
-
-.meal-modal img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 10px 0;
-}
-
-.meal-modal ul {
-    list-style: none;
-    padding: 0;
-}
-
-.meal-modal li {
-    text-align: left;
-}
-
-.meal-modal a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #007bff;
-    text-decoration: none;
-}
-
-.meal-modal a:hover {
-    text-decoration: underline;
 }

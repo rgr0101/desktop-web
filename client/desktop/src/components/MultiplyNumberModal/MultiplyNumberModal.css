@@ -1,4 +1,4 @@
-.cocktail-modal {
+.number-conversion-modal {
     background: transparent;
     backdrop-filter: blur(225px);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.cocktail-modal .close-button {
+.number-conversion-modal .close-button {
     background: red;
     color: white;
     border: none;
@@ -21,14 +21,14 @@
     border-radius: 5px;
 }
 
-.cocktail-modal input {
+.number-conversion-modal input {
     padding: 10px;
-    margin-right: 10px;
-    width: calc(100% - 120px);
+    margin: 10px 0;
+    width: calc(100% - 20px);
     box-sizing: border-box;
 }
 
-.cocktail-modal button {
+.number-conversion-modal button {
     padding: 10px;
     cursor: pointer;
     background-color: #007bff;
@@ -38,32 +38,6 @@
     transition: background-color 0.3s;
 }
 
-.cocktail-modal button:hover {
+.number-conversion-modal button:hover {
     background-color: #0056b3;
-}
-
-.cocktail-modal img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 10px 0;
-}
-
-.cocktail-modal ul {
-    list-style: none;
-    padding: 0;
-}
-
-.cocktail-modal li {
-    text-align: left;
-}
-
-.cocktail-modal a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #007bff;
-    text-decoration: none;
-}
-
-.cocktail-modal a:hover {
-    text-decoration: underline;
 }
