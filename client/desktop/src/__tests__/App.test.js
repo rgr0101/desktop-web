@@ -11,7 +11,7 @@ test('renders LoginForm component for the root route', () => {
     </MemoryRouter>
   );
 
-  // Asume que LoginForm contiene un texto "Login" (ajusta según tu componente real)
+  // Asume que LoginForm contiene un texto "Login"
   expect(screen.getByText(/Login/i)).toBeInTheDocument();
 });
 
@@ -22,6 +22,6 @@ test('renders Desktop component for the /desktop route', () => {
     </MemoryRouter>
   );
 
-  // Asume que Desktop contiene un texto "Desktop" (ajusta según tu componente real)
+  // Asume que Desktop contiene un texto "Desktop"
   expect(screen.getByText(/Desktop/i)).toBeInTheDocument();
 });
